@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+.d-grid{
+  grid-template-columns: repeat(4 , 1fr);
+  grid-auto-rows: 80px;
+  gap:1px;
+}
+
+#clear, #zero {
+  grid-column: 1/3;
+}
+
+#equals {
+  grid-row: 4/6;
+  grid-column: 4/5;
+}
+
+.cal-btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.cal-btn:hover{
+  opacity: .90;
+}
