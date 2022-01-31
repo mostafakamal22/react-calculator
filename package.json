@@ -1,6 +1,7 @@
 {
   "name": "javascript-caculator",
   "version": "0.1.0",
+  "homepage": "https://mostafakamal22.github.io/react-caculator/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
